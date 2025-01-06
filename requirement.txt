@@ -1,0 +1,5 @@
+fastapi==0.95.2  # Replace with the latest stable version
+uvicorn[standard]==0.23.2  # Replace with the latest stable version
+jinja2==3.1.2  # Template rendering
+yt-dlp==2023.10.7  # For YouTube video downloading
+aiofiles==23.2.1  # For asynchronous file handling
