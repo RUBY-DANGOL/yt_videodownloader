@@ -29,11 +29,6 @@ pip install -r requirement.txt
 - `pip` package manager
 - `yt-dlp` library
 
-### Clone the Repository
-```bash
-git clone https://github.com/yourusername/youtube-video-downloader.git
-cd youtube-video-downloader
-
 ### Run the Application
 uvicorn main:app --reload
 
@@ -66,6 +61,11 @@ youtube-video-downloader/
 ├── main.py                # Main FastAPI application
 ├── requirements.txt       # Python dependencies
 ├── README.md              # Project documentation
+
+### Clone the Repository
+```bash
+git clone https://github.com/yourusername/youtube-video-downloader.git
+cd youtube-video-downloader
 
 
 
