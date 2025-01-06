@@ -1,0 +1,102 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #7c2b2b, #450707);
+    color: #333;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    max-width: 400px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #180a0a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: red;
+}
+
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.container {
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+button {
+    background: linear-gradient(to right, #ff512f, #dd2476); /* Gradient background */
+    color: white; /* Button text color */
+    font-size: 1.2em; /* Larger font size for emphasis */
+    padding: 12px 20px; /* Padding around the button */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for a 3D effect */
+}
+
+button:hover {
+    background: linear-gradient(to right, #dd2476, #ff512f); /* Reverse gradient on hover */
+    transform: scale(1.05); /* Slightly increase button size */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* More prominent shadow on hover */
+}
+
+button:active {
+    transform: scale(0.98); /* Slightly shrink button on click */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for pressed effect */
+    background: linear-gradient(to right, #ff512f, #dd2476); /* Keep original gradient on click */
+}
